@@ -192,3 +192,9 @@ cite {
   font-size: 60px;
 }
 
+
+@media print {
+  body {
+    font-family: Helvetica, sans-serif;
+  }
+}
