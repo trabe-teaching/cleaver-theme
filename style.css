@@ -1,0 +1,194 @@
+@font-face {
+  font-family: URWGroteskTextLigWid;
+  src: url(https://cdn.rawgit.com/trabe-teaching/cleaver-theme/master/URWGroteskTextLigWid-Euro.ttf);
+}
+
+body {
+  background: #f5f4f0;
+  color: #333;
+  font-family: URWGroteskTextLigWid, sans-serif;
+}
+
+strong {
+  color: #b00;
+}
+
+.slide-content {
+  width: 1024px;
+  height: 768px;
+  margin: 0 auto;
+  font-size: 40px;
+  text-align: center;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.slide-content h1 {
+  margin: 50px 0 50px 0;
+}
+
+.slide-content h2 {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+}
+
+.slide-content h3 {
+  border: none;
+  text-align: center;
+  margin-bottom: 0.3em;
+}
+
+.slide-content ul {
+  width: 100%;
+  padding: 0;
+  font-size: 1.2em;
+  list-style: none;
+}
+
+.bullets .slide-content ul {
+  padding: 10px;
+  font-size: 1.2em;
+  list-style: disc;
+  text-align: left;
+}
+
+.slide-content pre {
+  text-align: left;
+  border: none;
+  margin: 0;
+}
+
+.slide-content code {
+  border: none;
+}
+
+.arrow {
+  border-width: 20px;
+}
+
+.prev {
+  border-right-width: 25px;
+}
+
+.next {
+  border-left-width: 25px;
+}
+
+/* jsbin slide */
+
+.jsbin iframe {
+  width: 1024px;
+  min-height: 768px ! important;
+}
+
+/* cover slide */
+.cover {
+  background: #ABC510;
+  color: #eee;
+}
+
+.cover .slide-content {
+  align-items: center;
+  text-align: center;
+}
+
+.cover h1 {
+  margin: 0 0 1em 0;
+  line-height: 1em;
+}
+
+.cover a {
+  color: #305309;
+}
+
+/* section slide */
+
+.section {
+  background: #1084C5;
+  color: #fff;
+}
+
+.section .slide-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+/* image slide */
+
+.image .slide-content {
+  padding: 0;
+}
+
+.image p {
+  margin: 0;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+}
+
+.image.full-height img {
+  width: auto;
+  height: 768px;
+}
+
+.image.vcenter p {
+  width: 100%;
+}
+
+/* quote slide */
+.quote {
+  background: #222;
+  color: #fff;
+}
+
+.quote .slide-content {
+  position: relative;
+}
+
+.quote blockquote {
+  font-size: 130%;
+  text-align: left;
+  margin: 0;
+  padding: 0;
+}
+
+cite {
+  text-align: right;
+  display: block;
+  font-size: 1.5em;
+}
+
+.code .slide-content {
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.code h2 {
+  font-size: 100%;
+  padding-bottom: 4px;
+  border-bottom: 1px solid #666;
+  text-align: left;
+  width: 100%;
+}
+
+.code.sligthly-smaller pre {
+  font-size: 55%;
+}
+
+.two-columns .slide-content ul {
+  -webkit-column-count: 2;
+  font-size: 1.5em;
+}
+
+.humongous-code .slide-content {
+  font-family: monospace;
+  font-size: 60px;
+}
+
